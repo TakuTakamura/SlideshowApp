@@ -12,6 +12,12 @@
 		A6D46FAA235AA2D2005716C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6D46FA8235AA2D2005716C9 /* Main.storyboard */; };
 		A6D46FAC235AA2D4005716C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6D46FAB235AA2D4005716C9 /* Assets.xcassets */; };
 		A6D46FAF235AA2D4005716C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6D46FAD235AA2D4005716C9 /* LaunchScreen.storyboard */; };
+		A6D46FBB235AA498005716C9 /* IMG2 in Resources */ = {isa = PBXBuildFile; fileRef = A6D46FB6235AA496005716C9 /* IMG2 */; };
+		A6D46FBC235AA499005716C9 /* IMG1 in Resources */ = {isa = PBXBuildFile; fileRef = A6D46FB7235AA497005716C9 /* IMG1 */; };
+		A6D46FBD235AA499005716C9 /* IMG4 in Resources */ = {isa = PBXBuildFile; fileRef = A6D46FB8235AA497005716C9 /* IMG4 */; };
+		A6D46FBE235AA499005716C9 /* IMG3 in Resources */ = {isa = PBXBuildFile; fileRef = A6D46FB9235AA498005716C9 /* IMG3 */; };
+		A6D46FBF235AA499005716C9 /* IMG5 in Resources */ = {isa = PBXBuildFile; fileRef = A6D46FBA235AA498005716C9 /* IMG5 */; };
+		A6D46FC1235C1FA4005716C9 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D46FC0235C1FA4005716C9 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		A6D46FAB235AA2D4005716C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6D46FAE235AA2D4005716C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6D46FB0235AA2D4005716C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6D46FB6235AA496005716C9 /* IMG2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMG2; sourceTree = "<group>"; };
+		A6D46FB7235AA497005716C9 /* IMG1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMG1; sourceTree = "<group>"; };
+		A6D46FB8235AA497005716C9 /* IMG4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMG4; sourceTree = "<group>"; };
+		A6D46FB9235AA498005716C9 /* IMG3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMG3; sourceTree = "<group>"; };
+		A6D46FBA235AA498005716C9 /* IMG5 */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMG5; sourceTree = "<group>"; };
+		A6D46FC0235C1FA4005716C9 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +69,15 @@
 				A6D46FA4235AA2D2005716C9 /* AppDelegate.swift */,
 				A6D46FA6235AA2D2005716C9 /* ViewController.swift */,
 				A6D46FA8235AA2D2005716C9 /* Main.storyboard */,
+				A6D46FB7235AA497005716C9 /* IMG1 */,
+				A6D46FB6235AA496005716C9 /* IMG2 */,
+				A6D46FB9235AA498005716C9 /* IMG3 */,
+				A6D46FB8235AA497005716C9 /* IMG4 */,
+				A6D46FBA235AA498005716C9 /* IMG5 */,
 				A6D46FAB235AA2D4005716C9 /* Assets.xcassets */,
 				A6D46FAD235AA2D4005716C9 /* LaunchScreen.storyboard */,
 				A6D46FB0235AA2D4005716C9 /* Info.plist */,
+				A6D46FC0235C1FA4005716C9 /* ResultViewController.swift */,
 			);
 			path = SlideshowApp2;
 			sourceTree = "<group>";
@@ -123,8 +141,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6D46FAF235AA2D4005716C9 /* LaunchScreen.storyboard in Resources */,
+				A6D46FBE235AA499005716C9 /* IMG3 in Resources */,
+				A6D46FBB235AA498005716C9 /* IMG2 in Resources */,
+				A6D46FBF235AA499005716C9 /* IMG5 in Resources */,
 				A6D46FAC235AA2D4005716C9 /* Assets.xcassets in Resources */,
 				A6D46FAA235AA2D2005716C9 /* Main.storyboard in Resources */,
+				A6D46FBC235AA499005716C9 /* IMG1 in Resources */,
+				A6D46FBD235AA499005716C9 /* IMG4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +160,7 @@
 			files = (
 				A6D46FA7235AA2D2005716C9 /* ViewController.swift in Sources */,
 				A6D46FA5235AA2D2005716C9 /* AppDelegate.swift in Sources */,
+				A6D46FC1235C1FA4005716C9 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
